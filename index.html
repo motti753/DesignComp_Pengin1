@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex , nofollow">
+  <title>コーディング課題(PENGIN BLOG)</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <header>
+    <div class="top-head">
+      <div class="title">クリ★スタ</div>
+      <div class="pc-menu">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contents">Contents</a></li>
+        </ul>
+      </div>
+      <div class="sp-menu">
+        <span class="material-symbols-outlined" id="open">menu</span>
+      </div>
+    </div>
+    <div class="main-title">Cresta Design.</div>
+    <img src="img/fv-bgi@2x.jpg" alt="main-pc-img" class="main-pc-img">
+    <img src="img/fv-bgi_sp@2x.jpg" alt="main-sp-img" class="main-sp-img">
+  </header>
+
+  <div class="overlay">
+    <span class="material-symbols-outlined" id="close">close</span>
+    <nav>
+      <ul>
+        <li>About</li>
+        <li>Service</li>
+        <li>News</li>
+        <li>お問い合わせ</li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <section class="about">
+      <h2>About</h2>
+      <div class="about-text">
+        <h3>
+          ミニマルで
+          <br>洗練されたデザインを。
+        </h3>
+        <p>近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実装させることで解決のサポートをいたします。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行った上でご提案させていただきます。
+        </p>
+      </div>
+    </section>
+
+    <section class="service">
+      <h2>Service</h2>
+      <div class="service-block">
+        <div class="block-text">
+          <h3>
+            リリース時のサポートで
+            <br>サービスのブランディングを
+          </h3>
+          <p>弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。</p>
+        </div>
+        <img src="img/service-image@2x.jpg" alt="service-picture1">
+      </div>
+
+      <div class="service-block">
+        <div class="block-text">
+          <h3>
+            リリース時のサポートで
+            <br>効果を最大化させる
+          </h3>
+          <p>弊社では、リリース時もサポートさせて頂きます。サービスはリリース後にさまざまな課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。</p>
+        </div>
+        <img src="img/service-image02@2x.jpg" alt="service-picture2">
+      </div>
+    </section>
+
+    <section class="news">
+      <h2>News</h2>
+      <div class="news-multiple">
+        <div class="news-block">
+          <img src="img/card-image1@2x.jpg" alt="news-picture1">
+          <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </div>
+
+        <div class="news-block">
+          <img src="img/card-image2@2x.jpg" alt="news-picture2">
+          <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </div>
+
+        <div class="news-block">
+          <img src="img/card-image3@2x.jpg" alt="news-picture3">
+          <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>お問い合わせ</h2>
+      <form action="" method="get">
+        <div class="input-part">
+          <label for="name">担当者名</label>
+          <input type="text" name="name" id="name">
+        </div>
+
+        <div class="input-part">
+          <label for="tel">電話番号</label>
+          <input type="tel" name="tel" id="tel">
+        </div>
+
+        <div class="input-part">
+          <label for="e-mail">メールアドレス</label>
+          <input type="email" name="e-mail" id="e-mail">
+        </div>
+
+        <div class="input-part">
+          <label for="inquiry-content">お問い合わせ内容</label>
+          <textarea name="inquiry-content" id="inquiry-content" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="send-part">
+          <input type="submit" value="送信">
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <small>©︎crest.design all rights reserved</small>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
